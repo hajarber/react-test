@@ -1,0 +1,39 @@
+.Posts {
+    text-align: left;
+    font-size: 40px;
+    font-style:bold;
+    margin-left:55px ;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 30px;
+    margin: 20px 50px;
+    padding: 10px;
+    
+}
+.card{
+   background: white;
+   height: 250px;
+   border: none;
+   border-radius: 10px;
+   text-align: center;
+
+}
+.title{
+    text-align: left;
+    margin:20px;
+    font-weight: 700;
+    
+}
+.body{
+    text-align: left;
+    margin:20px;
+    font-style: medium;
+    padding-right: 10px;
+    color:rgb(134, 132, 132);
+
+}
+

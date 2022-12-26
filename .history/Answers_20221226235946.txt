@@ -1,0 +1,19 @@
+h5>1: what is the difference between Functional components and Class components</h5>
+
+Functional Components  or stateless components : accept the data and display it  and are  responsible for the rendering of the UI.
+Class based or stateful Components  use ES6 class syntax. It can make use of the lifecycle methods.Class components extend from React.Component.
+
+<h5>2: rools of hooks</h5>
+
+Hooks let you use state and other React features without writing a class. With Hooks, you can extract stateful logic from a component so it can be 
+ tested independently and reused. Hooks allow you to reuse stateful logic without changing your component hierarchy which makes it easy to share Hooks among many components.
+
+<h5>3: how useEffect work ? </h5>
+we  use the useEffect() hook When we want to perform something after each render of component,
+the useEffect hook runs after the first render and after every update. React updates the DOM by the time it runs the effects.
+
+<h5>4: why state and not common variable ? </h5>
+State  instantly changes dynamically , while Variable changes , but It does not change dynamically
+
+<h5>5: what is props ? </h5>
+Props are arguments passed into React components.
